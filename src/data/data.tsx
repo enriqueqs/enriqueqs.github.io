@@ -90,7 +90,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "https://drive.google.com/file/d/1ptX_OGr7N-BT92pbBEIQhMwMEjvxtinW/view?usp=sharing",
+      href: "enriqueqs.github.io/CV/Quiroz_Enrique_CV_.pdf",
       text: "Resume",
       primary: true,
       Icon: DownloadIcon,
