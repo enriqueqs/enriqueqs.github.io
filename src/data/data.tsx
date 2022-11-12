@@ -90,7 +90,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "{{ site.baseurl }}/CV/Quiroz_Enrique_CV_.pdf",
+      href: "enriqueqs.github.io/CV/Quiroz_Enrique_CV_.pdf",
       text: "Resume",
       primary: true,
       Icon: DownloadIcon,
