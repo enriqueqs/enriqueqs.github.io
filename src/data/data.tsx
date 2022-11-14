@@ -313,7 +313,7 @@ export const education: TimelineItem[] = [
         Twelve semesters of education with more than 55 courses passed, mainly
         focusing on management, economics, finances and production. The
         mechanical engineering diploma consisted mainly in subjects as
-        Thermodynamics, Heat Transfer and HVAC
+        Thermodynamics, Heat Transfer and HVAC.
       </p>
     ),
   },
