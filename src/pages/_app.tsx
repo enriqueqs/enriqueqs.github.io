@@ -10,7 +10,7 @@ const MyApp = memo(({ Component, pageProps }: AppProps): JSX.Element => {
       <Script
         id="webgoogle"
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-CB3DD0LFEV`}
       />
 
       <Script id="scrip" strategy="lazyOnload">
@@ -18,7 +18,7 @@ const MyApp = memo(({ Component, pageProps }: AppProps): JSX.Element => {
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    gtag('config', 'G-CB3DD0LFEV', {
                     page_path: window.location.pathname,
                     });
                 `}
