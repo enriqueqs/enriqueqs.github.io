@@ -342,7 +342,7 @@ export const experience: TimelineItem[] = [
         related to Automated Demand Response, to making changes in the Frontend
         of{" "}
         <a href="https://www.danfoss.com/da-dk/products/dcs/monitoring-and-services/alsense-food-retail/">
-          Alsense
+          Alsense.
         </a>
       </p>
     ),
