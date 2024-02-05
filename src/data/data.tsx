@@ -81,7 +81,7 @@ export const heroData: Hero = {
         end-to-end machine learning solutions to retail customers.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I will probably be{" "}
+        In my free time, I will probably be{" "}
         <strong className="text-stone-100">Rock Climbing</strong>, out on trails
         doing some <strong className="text-stone-100">MTB</strong>, or
         travelling around wherever climbing takes me.
