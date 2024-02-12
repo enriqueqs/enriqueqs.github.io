@@ -129,7 +129,7 @@ export const aboutData: About = {
     },
     {
       label: "Employment",
-      text: "Danfoss",
+      text: "Novo Nordisk",
       Icon: OfficeBuildingIcon,
     },
   ],
@@ -365,6 +365,20 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
+    date: "February 2021 - February 2022",
+    location: "Danfoss",
+    title: "Data Analyst Student Worker",
+    content: (
+      <p>
+        Worked in a team that brings insight and analytics based on IoT devices to
+        the supermarket industry. Different tasks within data engineering and
+        data science. More specifically, build dashboards with Power BI, move
+        data between across different platforms, and use machine learning
+        algorithms to detect anomaly in energy consumption.
+      </p>
+    ),
+  },
+  {
     date: "January 2021 - June 2021",
     location: "Danmarks Tekniske Universitet",
     title: "Teaching Assistant",
@@ -384,28 +398,14 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: "February 2021 - Febrauary 2022",
-    location: "Danfoss",
-    title: "Data Analyst Student Worker",
-    content: (
-      <p>
-        Work in a team that brings insight and analytics based on IoT devices to
-        the supermarket industry. Different tasks within data engineering and
-        data science. More specifically, build dashboards with Power BI, move
-        data between across different platforms, and use machine learning
-        algorithms to detect anomaly in energy consumption.
-      </p>
-    ),
-  },
-  {
     date: "October 2020 - January 2021",
     location: "Donkey Republic",
     title: "Business Intelligence Analyst",
     content: (
       <a>
-        Conduct data analysis to provide the business with valuable insights.
-        Help develop the company's data strategy and quality of data.
-        Communicate the needs and and results with different business units
+        Conducted data analysis to provide the business with valuable insights.
+        Helped develop the company's data strategy and quality of data.
+        Communicated the needs and and results with different business units.
       </a>
     ),
   },
