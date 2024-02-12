@@ -11,7 +11,7 @@ import {
 import GithubIcon from "../components/Icon/GithubIcon";
 // import InstagramIcon from "../components/Icon/InstagramIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon";
-import YouTubeIcon from "../components/Icon/YoutubeIcon";
+// import YouTubeIcon from "../components/Icon/YoutubeIcon";
 // import StackOverflowIcon from "../components/Icon/StackOverflowIcon";
 // import TwitterIcon from "../components/Icon/TwitterIcon";
 import heroImage from "../images/header-background.webp";
@@ -76,8 +76,10 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Copenhagen based{" "}
         <strong className="text-stone-100">M.Sc. in Business Analytics</strong>,
-        currently working as a Full Stack Developer at an Analytics team at{" "}
-        <strong className="text-stone-100">Danfoss</strong> where we bring
+        currently working as a Business Intelligence Analyst at Injectable Finished Products at{" "}
+        <strong className="text-stone-100">Novo Nordisk</strong> where I prepare reports and data to be shared across the organization.
+        Previously, I worked as a Full Stack Developer at an Analytics team at{" "}
+        <strong className="text-stone-100">Danfoss</strong> where we were bringing
         end-to-end machine learning solutions to retail customers.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -113,7 +115,7 @@ export const aboutData: About = {
    I take challenges with a smile, and see joy in presenting thorough executed work. I have experience in MLOps using Azure, developing APIs using Nest.js framework, as well as frontend development using ReactJS.`,
   aboutItems: [
     { label: "Location", text: "Copenhagen, DK", Icon: MapIcon },
-    { label: "Age", text: "29", Icon: CalendarIcon },
+    { label: "Age", text: "30", Icon: CalendarIcon },
     { label: "Nationality", text: "Chilean / Italian", Icon: FlagIcon },
     {
       label: "Interests",
@@ -332,7 +334,22 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: "March 2022 - Present",
+    date: "April 2023 - Present",
+    location: "Novo Nordisk",
+    title: "Business Intelligence Analyst",
+    content: (
+      <p>
+        Part of Injectable Finished Products (IFP) Business Support team, 
+        where reporting is both upstream and downstream in the organization. 
+        Main tasks are preparation of dashboards to forecast capacity in Aseptic Production 
+        lines and improvement of ETL back-end to deliver most accurate prediction based on 
+        both site input and performance metrics, another main task is establishing new processes for collecting data. 
+        Some Ad-hoc tasks involve resolving discrepancies between local and central reporting
+      </p>
+    ),
+  },
+  {
+    date: "March 2022 - March 2023",
     location: "Danfoss",
     title: "Full Stack Developer",
     content: (
@@ -463,11 +480,11 @@ export const socialLinks: Social[] = [
     Icon: LinkedInIcon,
     href: "https://www.linkedin.com/in/enriqueqs/",
   },
-  {
-    label: "Youtube",
-    Icon: YouTubeIcon,
-    href: "https://www.youtube.com/user/enriqueqs/videos",
-  },
+  // {
+  //   label: "Youtube",
+  //   Icon: YouTubeIcon,
+  //   href: "https://www.youtube.com/user/enriqueqs/videos",
+  // },
 
   // {
   //   label: "Instagram",
